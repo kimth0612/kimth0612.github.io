@@ -1,0 +1,133 @@
+/* 메뉴 버튼 > 기본 상태 */
+.menu-button {
+  color: white; /* 텍스트 색상을 흰색으로 설정 */
+  background-color: transparent; /* 배경색을 투명하게 설정 */
+  border: none; /* 테두리 제거 */
+  border-radius: 5px; /* 버튼 모서리 둥글게 설정 */
+  cursor: pointer; /* Changes the mouse cursor on hover */
+}
+
+/* 메뉴 버튼 > 마우스 오버 상태 */
+.menu-button:hover {
+  color: #005490; /* 마우스 오버 시 텍스트 색상을 파란색으로 변경 */
+  background-color: transparent; /* 배경색을 투명하게 설정 */
+  /* 마우스 오버 시 필요한 추가 스타일 */
+}
+
+/* 메뉴 버튼 > 클릭 상태 (Active/Focus) */
+.menu-button:active,
+.menu-button:focus {
+  color: white; /* 클릭 시 텍스트 색상을 흰색으로 유지 */
+  background-color: #005490; /* 클릭 시 배경색을 더 진한 파란색으로 변경 */
+  /* 클릭 시 필요한 추가 스타일 */
+}
+
+.menu-button-clicked {
+  color: white;
+  background-color: #005490;
+  /* Any other styles you want to apply to the clicked state */
+  border: none; /* 테두리 제거 */
+  border-radius: 5px; /* 버튼 모서리 둥글게 설정 */
+  /* 추가로 필요한 스타일 */
+}
+
+
+/* Button Styles */
+.home-read-more-btn {
+  padding: 10px 20px; /* Adjust the padding to increase or decrease the size of the button */
+  background-color: #005490; /* Button background color */
+  color: white; /* Text color */
+  border: 1px solid white; /* Border color and size */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Make the text bold */
+  display: inline-block; /* Allows the button to be inline with other elements and respect the padding */
+  cursor: pointer; /* Changes the mouse cursor on hover */
+  text-decoration: none; /* Removes underline from links */
+  box-shadow: 0px 0px 4px #005490; /* Optional: Adds a subtle shadow for depth */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Button Hover State */
+.home-read-more-btn:hover {
+  background-color: white; /* Background color on hover */
+  color: #005490; /* Text color on hover */
+}
+
+/* CSS for the default state of the button */
+.contact-us-btn {
+  background-color: #ffffff; /* white background */
+  color: #005490; /* blue text */
+  border: 2px solid #005490; /* blue border */
+  /*padding: 10px 20px;  top/bottom padding of 10px and left/right padding of 20px */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* center the text inside the button */
+  text-decoration: none; /* no underline on the text */
+  display: inline-block; /* allows setting dimensions */
+  font-size: 16px; /* size of the text */
+  margin: 4px 2px; /* spacing around the button */
+  cursor: pointer; /* changes the cursor to a pointer on hover */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* smooth transition for background, text color and border */
+}
+
+/* CSS for the button when it is focused */
+.contact-us-btn:hover {
+  background-color: #005490; /* Background color on hover */
+  color: #ffffff; /* white text */
+  border-color: #005490; /* white border */
+  outline: none; /* removes the default focus outline */
+}
+
+/* CSS for the default state of the button */
+.contact-us-btn2 {
+  padding-left: 10px; /* 왼쪽 패딩을 10픽셀로 설정하여 텍스트 시작 위치를 조정합니다. */
+  padding-top: 5px; /* 위쪽 패딩을 10픽셀로 설정하여 텍스트 시작 위치를 조정합니다. */
+  background-color: #ffffff; /* white background */
+  color: #A0A0A0; /* 폰트 색상을 회색으로 설정 */
+  font-weight: normal; /* 폰트 두께를 일반으로 설정 */
+  font-family: Segoe UI, sans-serif; /* 폰트 패밀리 설정 */
+  border: 2px solid #A0A0A0; /* blue border */
+  /*padding: 10px 20px;  top/bottom padding of 10px and left/right padding of 20px */
+  border-radius: 5px; /* Rounded corners */
+  text-align: left; /* center the text inside the button */
+  text-decoration: none; /* no underline on the text */
+  display: inline-block; /* allows setting dimensions */
+  font-size: 16px; /* size of the text */
+  margin: 4px 2px; /* spacing around the button */
+  cursor: pointer; /* changes the cursor to a pointer on hover */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* smooth transition for background, text color and border */
+}
+
+/* TWebEdit & TWebMemo 플레이스홀더 스타일 설정 */
+.contact-us-btn2::placeholder { /* 'contact-us-btn2'는 TWebEdit & TWebMemo의 ElementClassName입니다. */
+  color: #A0A0A0; /* 폰트 색상을 회색으로 설정 */
+  font-style: italic; /* 폰트 스타일을 이탤릭체로 설정 */
+  font-weight: normal; /* 폰트 두께를 일반으로 설정 */
+  font-family: Segoe UI, sans-serif; /* 폰트 패밀리 설정 */
+  /* 추가적인 스타일 속성이 필요하면 여기에 추가하세요 */
+}
+
+
+/* Button Styles */
+.contact-us-send-message-btn {
+  /*padding: 10px 20px;*/ /* Adjust the padding to increase or decrease the size of the button */
+  background-color: #005490; /* Button background color */
+  color: white; /* Text color */
+  border: 1px solid #005490; /* Border color and size */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Make the text bold */
+  display: inline-block; /* Allows the button to be inline with other elements and respect the padding */
+  cursor: pointer; /* Changes the mouse cursor on hover */
+  text-decoration: none; /* Removes underline from links */
+  box-shadow: 0px 0px 4px #005490; /* Optional: Adds a subtle shadow for depth */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Button Hover State */
+.contact-us-send-message-btn:hover {
+  background-color: white; /* Background color on hover */
+  color: #000000; /* Text color on hover */
+}
