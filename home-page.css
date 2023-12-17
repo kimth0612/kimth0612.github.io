@@ -146,6 +146,46 @@
   outline: none; /* 포커스 될 때 테두리를 제거합니다 */
 }
 
+.memo-gray-16 {
+  overflow: hidden !important; /* 가로 및 세로 스크롤바를 숨깁니다 */
+  user-select: none; /* 텍스트 선택을 비활성화합니다 */
+  background-color: transparent !important;
+  color: #808080;  /* 폰트 색상을 회색으로 설정 */
+  font-weight: normal; /* 폰트 두께를 일반으로 설정 */
+  font-family: Segoe UI, sans-serif;  /* 폰트 패밀리 설정 */
+  border: 0px transparent !important;
+  border-radius: 5px; /* Rounded corners */
+  text-align: left; /* center the text inside the button */
+  text-decoration: none; /* no underline on the text */
+  display: inline-block; /* allows setting dimensions */
+  font-size: 16px; /* size of the text */
+}
+
+.memo-gray-16:focus {
+  outline: none; /* 포커스 될 때 테두리를 제거합니다 */
+}
+
+.memo-black-17 {
+  overflow: hidden !important; /* 가로 및 세로 스크롤바를 숨깁니다 */
+  user-select: none; /* 텍스트 선택을 비활성화합니다 */
+  background-color: transparent !important;
+  color: #808080;  /* 폰트 색상을 회색으로 설정 */
+  font-weight: normal; /* 폰트 두께를 일반으로 설정 */
+  font-family: Segoe UI, sans-serif;  /* 폰트 패밀리 설정 */
+  border: 0px transparent !important;
+  border-radius: 5px; /* Rounded corners */
+  text-align: left; /* center the text inside the button */
+  text-decoration: none; /* no underline on the text */
+  display: inline-block; /* allows setting dimensions */
+  font-size: 17px; /* size of the text */
+}
+
+.memo-black-17:focus {
+  outline: none; /* 포커스 될 때 테두리를 제거합니다 */
+}
+
+
+
 /* Button Styles */
 .contact-us-send-message-btn {
   /*padding: 10px 20px;*/ /* Adjust the padding to increase or decrease the size of the button */
