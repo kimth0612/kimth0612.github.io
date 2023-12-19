@@ -7,16 +7,7 @@ var CACHED_URLS = [
   "IconResLow.png",
   "IconResMid.png",
   "Manifest.json",
-  "uMain.html",
-  "uMain.pnl_about_us_info.img_about_us.Picture.png",
-  "uMain.pnl_member_01.img_ctl_member_ceo.Picture.png",
-  "uMain.pnl_member_02.img_ctl_member_cto.Picture.png",
-  "uMain.pnl_member_03.img_ctl_member_cfo.Picture.png",
-  "uMain.pnl_member_04.img_ctl_member_coo.Picture.png",
-  "uMain.pnl_svc_01.img_svc_01.Picture.png",
-  "uMain.pnl_svc_02.img_svc_02.Picture.png",
-  "uMain.pnl_svc_03.img_svc_03.Picture.png",
-  "uMain.pnl_top_info.img_comp_logo.Picture.png"
+  "uMain.html"
   ];
 
 self.addEventListener('install', function(event) {
