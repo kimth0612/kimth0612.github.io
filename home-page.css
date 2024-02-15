@@ -129,6 +129,25 @@
   outline: none;
 }
 
+.memo-black {
+  overflow: hidden !important;
+  user-select: none;
+  background-color: transparent !important;
+  color: #000000;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 0px transparent !important;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.memo-black:focus {
+  outline: none;
+}
+
 .memo-gray-16 {
   overflow: hidden !important;
   user-select: none;
