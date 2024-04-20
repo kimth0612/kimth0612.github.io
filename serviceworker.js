@@ -1,12 +1,12 @@
-var CACHE_NAME = "HomePage";
+var CACHE_NAME = "PointHub";
 var CACHED_URLS = [
   "index.html",
   "home-page.css",
-  "HomePage.js",
   "IconResHigh.png",
   "IconResLow.png",
   "IconResMid.png",
   "Manifest.json",
+  "PointHub.js",
   "uMain.html"
   ];
 
