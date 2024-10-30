@@ -12,6 +12,7 @@ var CACHED_URLS = [
   "IMGs/ksl.png",
   "IMGs/kth.png",
   "IMGs/logo30.png",
+  "IMGs/pjj.jpg",
   "IMGs/tms-Software.png",
   "IMGs/yin.png",
   "Manifest.json",
